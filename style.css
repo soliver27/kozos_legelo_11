@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.legel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ; 
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.legel p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; 
+}
+
+.legel a:hover{
+    background-color: green;
+}
+
+.legel a{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    align-items: center;      
+    gap: 0;             
+}
+
+
+.allomas h1{
+    font-size: 55px;
+}
+
+.allomas h4{
+    color: rgb(145, 250, 141);
+}
+
+.allomas{
+    color: white;
+    margin: 30px;
+}
+
+header{
+    max-width: 1200px;
+    display: flex;
+    background-color: rgb(36, 88, 36);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    gap: 20px;
+
+}
+
+
+.gazda_tehen{
+    color: lightgreen;
+    border: solid white 1px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    margin-left:50px ;
+}
+
+.gazda_tehen p{
+    color: white;
+}
+
+.oldalak{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.oldalak a{
+    text-decoration: none;
+    display: flex;
+    flex: 1 0 auto;
+    background-color: rgb(63, 214, 63);
+    color: rgb(57, 94, 10);
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 10px;
+    gap: 0; 
+}
