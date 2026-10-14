@@ -65,6 +65,8 @@ header {
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .allomas {
@@ -89,7 +91,12 @@ header {
     padding: 20px;
     border-radius: 20px;
     flex: 1;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.gazda_tehen h1{
+    font-size: 40px;
 }
 
 .gazda_tehen p {
@@ -292,6 +299,10 @@ footer a {
     text-align: left;
     border-top: 2px solid darkgreen;
     padding-top: 20px;
+}
+
+.tk{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) {

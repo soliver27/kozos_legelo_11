@@ -1,0 +1,351 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 241, 232);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.legel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 0;
+}
+
+.legel p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.legel a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+.legel a:hover, 
+.legel a.active {
+    background-color: darkgreen;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 88, 36);
+    padding: 30px;
+    border-radius: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.allomas {
+    color: white;
+    flex: 2;
+    margin: 10px;
+}
+
+.allomas h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.allomas h4 {
+    color: rgb(145, 250, 141);
+    margin-bottom: 5px;
+}
+
+.gazda_tehen {
+    color: lightgreen;
+    border: solid white 1px;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.gazda_tehen h1{
+    font-size: 40px;
+}
+
+.gazda_tehen p {
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.oldalak {
+    display: flex;
+    width: 100%;
+}
+
+.oldalak-legel {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    gap: 8px;
+}
+
+.oldalak-legel li {
+    display: flex;
+    flex: 1 0 auto; 
+}
+
+.oldalak a {
+    text-decoration: none;
+    display: flex;
+    flex: 1 0 auto;
+    background-color: rgb(225, 242, 225);
+    color: rgb(57, 94, 10);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.oldalak a:hover, 
+.oldalak a.active {
+    background-color: rgb(147, 211, 147);
+    color: rgb(30, 50, 5);
+}
+
+.flexxel{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+article {
+    background-color: white;
+    border: 1px solid rgb(15, 156, 15);
+    border-radius: 10px;
+    padding: 25px;
+    flex: 3;
+}
+
+article p {
+    font-size: 20px;
+}
+
+.kep1 {
+    background-color: rgb(222, 247, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    gap: 10px;
+}
+
+.kep1 img, .kep2 img {
+    width: 70px;
+    height: 70px;
+}
+
+.kep2 {
+    background-color: rgb(143, 212, 149);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: left;
+    background-color: #e2f0d9;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.info div h1 {
+    font-size: 28px;
+}
+
+.info div p {
+    font-size: 18px;
+}
+
+.gondold {
+    font-size: 20px;
+    background-color: rgb(255, 246, 216);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    border-left: 4px solid orange;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #d2ebc2;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: stretch;
+}
+
+aside h1 {
+    font-size: 20px;
+    color: black;
+}
+
+aside div {
+    background-color: rgb(232, 243, 232);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-left: solid 4px rgb(13, 153, 13);
+}
+
+aside h2 {
+    font-size: 18px;
+}
+
+aside p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.hivatkozas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 100%;
+    gap: 15px;
+}
+
+.hivatkozas p {
+    text-align: left;
+    color: black;
+    margin: 0;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tankönyvi {
+    margin-top: 40px;
+    text-align: left;
+    border-top: 2px solid darkgreen;
+    padding-top: 20px;
+}
+
+.tk{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+
+    .flexxel {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .gazda_tehen {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .legel {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .oldalak-legel {
+        flex-direction: column;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .hivatkozas {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .allomas h1 {
+        font-size: 32px;
+    }
+}
