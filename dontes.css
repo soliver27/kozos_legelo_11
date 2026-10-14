@@ -76,8 +76,8 @@ header {
 }
 
 .allomas h1 {
-    font-size: 45px;
-    margin-bottom: 10px;
+    font-size: 65px;
+    margin-bottom: 0px;
 }
 
 .allomas h4 {
@@ -194,6 +194,33 @@ article p {
     margin-bottom: 25px;
 }
 
+.kep2 .nari{
+    filter: drop-shadow(0px 0px 5px #ff9800);
+}
+
+.kiemelt-info {
+    display: flex;
+    align-items: center;    
+    gap: 8px;              
+    margin-bottom: 25px;   
+}
+
+.kiemelt-info p {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+
+.nari-pont {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: orangered;
+    border-radius: 50%;
+    flex: 0 0 auto;
+}
+
+
 .info {
     display: flex;
     flex-direction: row;
@@ -285,7 +312,12 @@ footer {
     font-size: 20px;
 }
 
-footer a {
+footer .elozo{
+    color: black;
+    font-size: 20px;
+}
+
+footer .kovi {
     text-decoration: none;
     color: white;
     background-color: darkgreen;
